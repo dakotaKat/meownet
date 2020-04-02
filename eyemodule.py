@@ -1,6 +1,21 @@
 #! /usr/bin/env python
 
 ###
+# edited eyemodule script by kotaKat (twitter @dakotathekat)
+# minor update to move from the python imaging library to pillow
+# warning: i am not a programmer by ANY means so this is a crude AF hack
+# 
+# works on wsl 16.04 lts ubuntu, 
+# apt-get install python python-pip
+# pip install --upgrade pip
+# pip install pillow
+#
+# python eyemodule.py -d /mnt/c/eyemodule -p /mnt/c/eyemodule -e
+#
+# you need the eyemodule PDBs (all 3 of them) from a palm OS backup to use this
+#
+#
+###
 # Author:
 #     Tamer Fahmy <tamer@tammura.at>
 #
